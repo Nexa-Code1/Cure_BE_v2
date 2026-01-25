@@ -20,9 +20,8 @@ const bootstrap = async () => {
     app.use(
         cors({
             origin: [
-                "http://localhost:5173",
-                // "https://onlinebookingdoctor.netlify.app",
-                "http://localhost:3000",
+                process.env.FRONTEND_URL,
+                process.env.FRONTEND_DEFAULT_URL,
             ],
             methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
             credentials: true,
