@@ -22,6 +22,7 @@ const bootstrap = async () => {
             origin: [
                 process.env.FRONTEND_URL,
                 process.env.FRONTEND_DEFAULT_URL,
+                "http://localhost:3000"
             ],
             methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
             credentials: true,

@@ -38,6 +38,7 @@ const corsOptions = {
         "http://localhost:5173",
         "http://localhost:3000",
         process.env.FRONTEND_URL || "https://onlinebookingdoctor.netlify.app",
+        "https://cure-fe.vercel.app",
         process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null,
     ].filter(Boolean),
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
