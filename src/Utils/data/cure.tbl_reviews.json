@@ -1,0 +1,2020 @@
+[{
+  "_id": {
+    "$oid": "697611028a957c6b5c5af067"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052f"
+  },
+  "user_id": {
+    "$oid": "6973f821c46c1e5c5e9ba9ee"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T12:48:02.525Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T12:48:02.525Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0567"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0537"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 5,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0568"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0555"
+  },
+  "user_id": {
+    "$oid": "69760f7e5841c2c1742d4dc1"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0569"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0558"
+  },
+  "user_id": {
+    "$oid": "69760f635841c2c1742d4db2"
+  },
+  "rate": 3,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d056a"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0549"
+  },
+  "user_id": {
+    "$oid": "69760f5e5841c2c1742d4daf"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d056b"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054d"
+  },
+  "user_id": {
+    "$oid": "69760f6e5841c2c1742d4db8"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d056c"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0537"
+  },
+  "user_id": {
+    "$oid": "69760f635841c2c1742d4db2"
+  },
+  "rate": 4,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d056d"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0559"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 3,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d056e"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054d"
+  },
+  "user_id": {
+    "$oid": "6973f821c46c1e5c5e9ba9ee"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d056f"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0546"
+  },
+  "user_id": {
+    "$oid": "69760f785841c2c1742d4dbe"
+  },
+  "rate": 5,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0570"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054b"
+  },
+  "user_id": {
+    "$oid": "69760f505841c2c1742d4da6"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0571"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d055e"
+  },
+  "user_id": {
+    "$oid": "69760ea95841c2c1742d4d8b"
+  },
+  "rate": 3,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0572"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0545"
+  },
+  "user_id": {
+    "$oid": "69760f5a5841c2c1742d4dac"
+  },
+  "rate": 5,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0573"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054b"
+  },
+  "user_id": {
+    "$oid": "69760f815841c2c1742d4dc4"
+  },
+  "rate": 5,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0574"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0555"
+  },
+  "user_id": {
+    "$oid": "69760f675841c2c1742d4db5"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0575"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d053e"
+  },
+  "user_id": {
+    "$oid": "69760f505841c2c1742d4da6"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0576"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0535"
+  },
+  "user_id": {
+    "$oid": "69760f675841c2c1742d4db5"
+  },
+  "rate": 3,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0577"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052d"
+  },
+  "user_id": {
+    "$oid": "69760f675841c2c1742d4db5"
+  },
+  "rate": 4,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0578"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054b"
+  },
+  "user_id": {
+    "$oid": "69760ea95841c2c1742d4d8b"
+  },
+  "rate": 5,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0579"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0553"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d057a"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0549"
+  },
+  "user_id": {
+    "$oid": "69760ea95841c2c1742d4d8b"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d057b"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0546"
+  },
+  "user_id": {
+    "$oid": "69760f405841c2c1742d4da0"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d057c"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0533"
+  },
+  "user_id": {
+    "$oid": "69760f815841c2c1742d4dc4"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d057d"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0557"
+  },
+  "user_id": {
+    "$oid": "69760ea95841c2c1742d4d8b"
+  },
+  "rate": 3,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d057e"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0547"
+  },
+  "user_id": {
+    "$oid": "69760f495841c2c1742d4da3"
+  },
+  "rate": 4,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d057f"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d055b"
+  },
+  "user_id": {
+    "$oid": "69760f675841c2c1742d4db5"
+  },
+  "rate": 3,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0580"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054c"
+  },
+  "user_id": {
+    "$oid": "69760f785841c2c1742d4dbe"
+  },
+  "rate": 3,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0581"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0541"
+  },
+  "user_id": {
+    "$oid": "69760f635841c2c1742d4db2"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0582"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052e"
+  },
+  "user_id": {
+    "$oid": "69760f785841c2c1742d4dbe"
+  },
+  "rate": 3,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0583"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d053c"
+  },
+  "user_id": {
+    "$oid": "69760f2c5841c2c1742d4d94"
+  },
+  "rate": 4,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0584"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0539"
+  },
+  "user_id": {
+    "$oid": "69760f785841c2c1742d4dbe"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0585"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052e"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 4,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0586"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d053f"
+  },
+  "user_id": {
+    "$oid": "69760f635841c2c1742d4db2"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0587"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d055b"
+  },
+  "user_id": {
+    "$oid": "69760f635841c2c1742d4db2"
+  },
+  "rate": 4,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0588"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0554"
+  },
+  "user_id": {
+    "$oid": "69760f5e5841c2c1742d4daf"
+  },
+  "rate": 3,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0589"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0535"
+  },
+  "user_id": {
+    "$oid": "69760f5e5841c2c1742d4daf"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d058a"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d053a"
+  },
+  "user_id": {
+    "$oid": "69760f675841c2c1742d4db5"
+  },
+  "rate": 4,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d058b"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0546"
+  },
+  "user_id": {
+    "$oid": "69760f405841c2c1742d4da0"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d058c"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054e"
+  },
+  "user_id": {
+    "$oid": "6973f821c46c1e5c5e9ba9ee"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d058d"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0552"
+  },
+  "user_id": {
+    "$oid": "69760f315841c2c1742d4d97"
+  },
+  "rate": 4,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d058e"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0539"
+  },
+  "user_id": {
+    "$oid": "69760f365841c2c1742d4d9a"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d058f"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052f"
+  },
+  "user_id": {
+    "$oid": "6973f821c46c1e5c5e9ba9ee"
+  },
+  "rate": 5,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0590"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d055c"
+  },
+  "user_id": {
+    "$oid": "69760f675841c2c1742d4db5"
+  },
+  "rate": 3,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0591"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0532"
+  },
+  "user_id": {
+    "$oid": "69760f555841c2c1742d4da9"
+  },
+  "rate": 3,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0592"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0531"
+  },
+  "user_id": {
+    "$oid": "69760f7e5841c2c1742d4dc1"
+  },
+  "rate": 5,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0593"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0535"
+  },
+  "user_id": {
+    "$oid": "69760f315841c2c1742d4d97"
+  },
+  "rate": 4,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0594"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0558"
+  },
+  "user_id": {
+    "$oid": "69760f1b5841c2c1742d4d8e"
+  },
+  "rate": 4,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0595"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0541"
+  },
+  "user_id": {
+    "$oid": "69760ea95841c2c1742d4d8b"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0596"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054f"
+  },
+  "user_id": {
+    "$oid": "6973f821c46c1e5c5e9ba9ee"
+  },
+  "rate": 3,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0597"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0548"
+  },
+  "user_id": {
+    "$oid": "69760f255841c2c1742d4d91"
+  },
+  "rate": 5,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0598"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0532"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 4,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d0599"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052f"
+  },
+  "user_id": {
+    "$oid": "69760f3b5841c2c1742d4d9d"
+  },
+  "rate": 3,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d059a"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0530"
+  },
+  "user_id": {
+    "$oid": "69760f365841c2c1742d4d9a"
+  },
+  "rate": 4,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d059b"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d055e"
+  },
+  "user_id": {
+    "$oid": "69760f495841c2c1742d4da3"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d059c"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0537"
+  },
+  "user_id": {
+    "$oid": "69760f365841c2c1742d4d9a"
+  },
+  "rate": 3,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d059d"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0533"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 3,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d059e"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0540"
+  },
+  "user_id": {
+    "$oid": "69760f5e5841c2c1742d4daf"
+  },
+  "rate": 5,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d059f"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0530"
+  },
+  "user_id": {
+    "$oid": "69760f255841c2c1742d4d91"
+  },
+  "rate": 4,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a0"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d053c"
+  },
+  "user_id": {
+    "$oid": "69760f405841c2c1742d4da0"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a1"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0551"
+  },
+  "user_id": {
+    "$oid": "69760f495841c2c1742d4da3"
+  },
+  "rate": 3,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a2"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0546"
+  },
+  "user_id": {
+    "$oid": "69760f5a5841c2c1742d4dac"
+  },
+  "rate": 5,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a3"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054f"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 3,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a4"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0541"
+  },
+  "user_id": {
+    "$oid": "69760f505841c2c1742d4da6"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a5"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0543"
+  },
+  "user_id": {
+    "$oid": "69760f555841c2c1742d4da9"
+  },
+  "rate": 3,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a6"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0548"
+  },
+  "user_id": {
+    "$oid": "69760f505841c2c1742d4da6"
+  },
+  "rate": 4,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a7"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0546"
+  },
+  "user_id": {
+    "$oid": "69760f405841c2c1742d4da0"
+  },
+  "rate": 3,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a8"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0558"
+  },
+  "user_id": {
+    "$oid": "69760f725841c2c1742d4dbb"
+  },
+  "rate": 3,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05a9"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d053c"
+  },
+  "user_id": {
+    "$oid": "69760f2c5841c2c1742d4d94"
+  },
+  "rate": 3,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05aa"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054b"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 3,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05ab"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0532"
+  },
+  "user_id": {
+    "$oid": "69760f6e5841c2c1742d4db8"
+  },
+  "rate": 3,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05ac"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054f"
+  },
+  "user_id": {
+    "$oid": "69760f255841c2c1742d4d91"
+  },
+  "rate": 5,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05ad"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0545"
+  },
+  "user_id": {
+    "$oid": "69760f635841c2c1742d4db2"
+  },
+  "rate": 4,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05ae"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d055b"
+  },
+  "user_id": {
+    "$oid": "69760f365841c2c1742d4d9a"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05af"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054c"
+  },
+  "user_id": {
+    "$oid": "6973f821c46c1e5c5e9ba9ee"
+  },
+  "rate": 3,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b0"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d053a"
+  },
+  "user_id": {
+    "$oid": "69760f1b5841c2c1742d4d8e"
+  },
+  "rate": 3,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b1"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0559"
+  },
+  "user_id": {
+    "$oid": "69760f3b5841c2c1742d4d9d"
+  },
+  "rate": 4,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b2"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0536"
+  },
+  "user_id": {
+    "$oid": "69760f6e5841c2c1742d4db8"
+  },
+  "rate": 5,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b3"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0538"
+  },
+  "user_id": {
+    "$oid": "69760f1b5841c2c1742d4d8e"
+  },
+  "rate": 4,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b4"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d055b"
+  },
+  "user_id": {
+    "$oid": "69760f365841c2c1742d4d9a"
+  },
+  "rate": 4,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b5"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054a"
+  },
+  "user_id": {
+    "$oid": "69760f815841c2c1742d4dc4"
+  },
+  "rate": 3,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b6"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0556"
+  },
+  "user_id": {
+    "$oid": "69760f555841c2c1742d4da9"
+  },
+  "rate": 4,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b7"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0548"
+  },
+  "user_id": {
+    "$oid": "69760f255841c2c1742d4d91"
+  },
+  "rate": 3,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b8"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052d"
+  },
+  "user_id": {
+    "$oid": "69760f7e5841c2c1742d4dc1"
+  },
+  "rate": 3,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05b9"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054c"
+  },
+  "user_id": {
+    "$oid": "69760f5a5841c2c1742d4dac"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05ba"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0543"
+  },
+  "user_id": {
+    "$oid": "69760f315841c2c1742d4d97"
+  },
+  "rate": 4,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05bb"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0558"
+  },
+  "user_id": {
+    "$oid": "69760ea95841c2c1742d4d8b"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05bc"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0551"
+  },
+  "user_id": {
+    "$oid": "69760f6e5841c2c1742d4db8"
+  },
+  "rate": 4,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05bd"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052d"
+  },
+  "user_id": {
+    "$oid": "69760f315841c2c1742d4d97"
+  },
+  "rate": 4,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05be"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0531"
+  },
+  "user_id": {
+    "$oid": "69760ea95841c2c1742d4d8b"
+  },
+  "rate": 4,
+  "comment": "Highly recommended",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05bf"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0559"
+  },
+  "user_id": {
+    "$oid": "69760f855841c2c1742d4dc7"
+  },
+  "rate": 3,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c0"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0538"
+  },
+  "user_id": {
+    "$oid": "69760f815841c2c1742d4dc4"
+  },
+  "rate": 5,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c1"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d055c"
+  },
+  "user_id": {
+    "$oid": "69760f255841c2c1742d4d91"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c2"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052d"
+  },
+  "user_id": {
+    "$oid": "69760f365841c2c1742d4d9a"
+  },
+  "rate": 4,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c3"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d052e"
+  },
+  "user_id": {
+    "$oid": "69760f405841c2c1742d4da0"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c4"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054a"
+  },
+  "user_id": {
+    "$oid": "69760ea95841c2c1742d4d8b"
+  },
+  "rate": 5,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c5"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0540"
+  },
+  "user_id": {
+    "$oid": "6973f821c46c1e5c5e9ba9ee"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c6"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0540"
+  },
+  "user_id": {
+    "$oid": "69760f405841c2c1742d4da0"
+  },
+  "rate": 4,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c7"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0539"
+  },
+  "user_id": {
+    "$oid": "69760f555841c2c1742d4da9"
+  },
+  "rate": 5,
+  "comment": "Satisfied with the consultation",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c8"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0541"
+  },
+  "user_id": {
+    "$oid": "69760f2c5841c2c1742d4d94"
+  },
+  "rate": 5,
+  "comment": "Excellent experience",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05c9"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d054f"
+  },
+  "user_id": {
+    "$oid": "69760f635841c2c1742d4db2"
+  },
+  "rate": 5,
+  "comment": "Doctor is very good",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697620edf444dc34c08d05ca"
+  },
+  "doctor_id": {
+    "$oid": "69760c76f444dc34c08d0558"
+  },
+  "user_id": {
+    "$oid": "69760f555841c2c1742d4da9"
+  },
+  "rate": 4,
+  "comment": "Very professional and kind",
+  "created_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-25T13:54:39.421Z"
+  },
+  "__v": 0
+}]
