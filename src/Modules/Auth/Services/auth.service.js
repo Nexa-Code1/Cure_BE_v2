@@ -86,6 +86,7 @@ export const login = async (req, res) => {
 
         const token = jwt.sign({ id: user._id.toString() }, process.env.JWT_SECRET_LOGIN, {
             expiresIn: "1h",
+            jwtid: uuidv4()
         });
 
         // Convert to JSON and remove password
