@@ -11,7 +11,9 @@ import connection from "./DB/connection.js";
 import routerHandler from "./Utils/router-handler.js";
 import { globalErrorHandler } from "./Middlewares/error-handler-middleware.js";
 
-config();
+if (process.env.NODE_ENV !== "production") {
+    config();
+}
 
 const app = express();
 const isVercel = process.env.VERCEL === "1";
