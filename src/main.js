@@ -1,45 +1,122 @@
 import express from "express";
-import dotenv from "dotenv";
-import path from "path";
+import { config } from "dotenv";
 import cors from "cors";
-import connection from "./DB/connection.js";
-import routerHandler from "./Utils/router-handler.js";
+import path from "path";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Load environment variables from the root directory
-const envPath = path.resolve(__dirname, "../.env");
-const result = dotenv.config({ path: envPath });
+import connection from "./DB/connection.js";
+import routerHandler from "./Utils/router-handler.js";
+import { globalErrorHandler } from "./Middlewares/error-handler-middleware.js";
+
+config();
+
 const app = express();
+const isVercel = process.env.VERCEL === "1";
 
-const bootstrap = async () => {
+/* =======================
+   DATABASE (SERVERLESS SAFE)
+======================= */
+
+let isDBConnected = false;
+
+async function connectDBOnce() {
+    if (isDBConnected) return;
     await connection();
+    isDBConnected = true;
+}
 
-    app.use(
-        cors({
-            origin: [
-                process.env.FRONTEND_URL,
-                process.env.FRONTEND_DEFAULT_URL,
-                "http://localhost:3000"
-            ],
-            methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
-            credentials: true,
-            allowedHeaders: ["Content-Type", "Authorization"],
-        })
-    );
+connectDBOnce();
 
-    app.use(express.json());
-    app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+/* =======================
+   CORS (SAFE)
+======================= */
 
-    routerHandler(app);
+const allowedOrigins =
+    (isVercel ? process.env.FRONTEND_URL : process.env.FRONTEND_DEFAULT_URL) ||
+    "";
 
+const normalizedOrigins = allowedOrigins
+    .split(",")
+    .map((origin) => origin.trim().replace(/\/$/, ""))
+    .filter(Boolean);
+
+app.use(
+    cors({
+        origin: (origin, callback) => {
+            if (!origin) return callback(null, true);
+            if (normalizedOrigins.includes(origin)) {
+                return callback(null, true);
+            }
+            return callback(new Error(`CORS blocked origin: ${origin}`));
+        },
+        credentials: true,
+        methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
+        allowedHeaders: ["Content-Type", "Authorization"],
+    })
+);
+
+/* =======================
+   MIDDLEWARES
+======================= */
+
+app.use(express.json());
+
+if (!isVercel) {
+    app.use("/uploads", express.static("uploads"));
+}
+
+/* =======================
+   ROUTES
+======================= */
+
+routerHandler(app);
+
+app.get("/", (req, res) => {
+    res.json({
+        message: "API is running",
+        status: "OK",
+        environment: process.env.NODE_ENV || "development",
+        timestamp: new Date().toISOString(),
+    });
+});
+
+/* =======================
+   ERROR HANDLER
+======================= */
+
+app.use(globalErrorHandler);
+
+/* =======================
+   LOCAL STATIC CLIENT
+======================= */
+
+app.use(express.static(path.join(__dirname, "..", "client", "dist")));
+    app.use((req, res) => {
+        res.sendFile(
+            path.join(__dirname, "..", "client", "dist", "index.html")
+        );
+    });
+
+/* =======================
+   BOOTSTRAP (LOCAL ONLY)
+======================= */
+
+export function bootstrap() {
     const PORT = process.env.PORT || 3000;
-    app.listen(PORT, () => console.log(`Server is running on port ${PORT}`)).on(
-        "error",
-        (error) => console.error("Server error:", error)
-    );
-};
+    app.listen(PORT, () => {
+        console.log(`✅ Server running on port ${PORT}`);
+        console.log(
+            `🌍 Environment: ${process.env.NODE_ENV || "development"}`
+        );
+        console.log(`🔗 Local: http://localhost:${PORT}`);
+    });
+}
 
-export default bootstrap;
+/* =======================
+   VERCEL EXPORT
+======================= */
+
+export default app;
