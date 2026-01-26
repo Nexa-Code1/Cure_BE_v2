@@ -5,18 +5,19 @@ import {
   getFavourite,
 } from "./Services/fav.service.js";
 import { authenticationMiddleware } from "../../Middlewares/authentication-middleware.js";
+import { errorHandlerMiddleware } from "../../Middlewares/error-handler-middleware.js";
 const favRouter = Router();
 
-favRouter.get("/get-favourites", authenticationMiddleware, getFavourite);
+favRouter.get("/get-favourites", authenticationMiddleware, errorHandlerMiddleware(getFavourite));
 favRouter.post(
   "/add-favourite/:doctor_id",
   authenticationMiddleware,
-  addFavourite
+  errorHandlerMiddleware(addFavourite)
 );
 favRouter.delete(
   "/delete-favourite/:doctor_id",
   authenticationMiddleware,
-  deleteFavourite
+  errorHandlerMiddleware(deleteFavourite)
 );
 
 export default favRouter;

@@ -7,15 +7,16 @@ import {
   verifyOtp,
   logout,
 } from "./Services/auth.service.js";
+import { errorHandlerMiddleware } from "../../Middlewares/error-handler-middleware.js";
 
 const authRouter = Router();
 
 // Auth routes
-authRouter.post("/register", register);
-authRouter.post("/login", login);
-authRouter.post("/send-otp", sendOtp);
-authRouter.post("/verify-otp", verifyOtp);
-authRouter.post("/reset-password", resetPassword);
-authRouter.post("/logout", logout);
+authRouter.post("/register", errorHandlerMiddleware(register));
+authRouter.post("/login", errorHandlerMiddleware(login));
+authRouter.post("/send-otp", errorHandlerMiddleware(sendOtp));
+authRouter.post("/verify-otp", errorHandlerMiddleware(verifyOtp));
+authRouter.post("/reset-password", errorHandlerMiddleware(resetPassword));
+authRouter.post("/logout", errorHandlerMiddleware(logout));
 
 export default authRouter;

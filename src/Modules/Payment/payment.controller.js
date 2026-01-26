@@ -6,27 +6,28 @@ import {
   removePaymentMethod,
   getPaymentMethods,
 } from "./Services/payment.services.js";
+import { errorHandlerMiddleware } from "../../Middlewares/error-handler-middleware.js";
 const paymentRouter = Router();
 
 paymentRouter.get(
   "/payment-methods",
   authenticationMiddleware,
-  getPaymentMethods
+  errorHandlerMiddleware(getPaymentMethods)
 );
 paymentRouter.post(
   "/create-setup-intent",
   authenticationMiddleware,
-  createSetupIntent
+  errorHandlerMiddleware(createSetupIntent)
 );
 paymentRouter.post(
   "/add-payment-method",
   authenticationMiddleware,
-  addPaymentMethod
+  errorHandlerMiddleware(addPaymentMethod)
 );
 paymentRouter.post(
   "/remove-payment-method",
   authenticationMiddleware,
-  removePaymentMethod
+  errorHandlerMiddleware(removePaymentMethod)
 );
 
 export default paymentRouter;

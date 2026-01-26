@@ -1,6 +1,5 @@
 import nodemailer from "nodemailer";
 import { EventEmitter } from "node:events";
-import { errorHandlerMiddleware } from "../Middlewares/error-handler-middleware.js";
 
 const SendEmailServices = async ({ to, subject, html, attachments = [] }) => {
         const transport = nodemailer.createTransport({

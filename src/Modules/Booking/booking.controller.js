@@ -8,26 +8,27 @@ import {
   bookingIntent,
   updateBooking,
 } from "./Services/booking.service.js";
+import { errorHandlerMiddleware } from "../../Middlewares/error-handler-middleware.js";
 
 const bookingRouter = Router();
 
-bookingRouter.get("/my-bookings", authenticationMiddleware, getMyBookings);
-bookingRouter.post("/book-intent/:id", authenticationMiddleware, bookingIntent);
-bookingRouter.post("/book-doctor/:id", authenticationMiddleware, reserveDoctor);
+bookingRouter.get("/my-bookings", authenticationMiddleware, errorHandlerMiddleware(getMyBookings));
+bookingRouter.post("/book-intent/:id", authenticationMiddleware, errorHandlerMiddleware(bookingIntent));
+bookingRouter.post("/book-doctor/:id", authenticationMiddleware, errorHandlerMiddleware(reserveDoctor));
 bookingRouter.put(
   "/update-booking/:id",
   authenticationMiddleware,
-  updateBooking
+  errorHandlerMiddleware(updateBooking)
 );
 bookingRouter.put(
   "/complete-booking/:id",
   authenticationMiddleware,
-  completeBooking
+  errorHandlerMiddleware(completeBooking)
 );
 bookingRouter.delete(
   "/cancel-doctor/:id",
   authenticationMiddleware,
-  cancelReserve
+  errorHandlerMiddleware(cancelReserve)
 );
 
 export default bookingRouter;

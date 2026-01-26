@@ -11,9 +11,7 @@ import connection from "./DB/connection.js";
 import routerHandler from "./Utils/router-handler.js";
 import { globalErrorHandler } from "./Middlewares/error-handler-middleware.js";
 
-if (process.env.NODE_ENV !== "production") {
-    config();
-}
+config();
 
 const app = express();
 const isVercel = process.env.VERCEL === "1";
@@ -81,18 +79,6 @@ app.get("/", (req, res) => {
         message: "API is running",
         status: "OK",
         environment: process.env.NODE_ENV || "development",
-        timestamp: new Date().toISOString(),
-    });
-});
-
-app.get("/debug-env", (req, res) => {
-    res.json({
-        node_env: process.env.NODE_ENV,
-        vercel: process.env.VERCEL,
-        jwt_secret_login_status: process.env.JWT_SECRET_LOGIN ? "Loaded" : "Not Loaded",
-        jwt_secret_login_value_length: process.env.JWT_SECRET_LOGIN ? process.env.JWT_SECRET_LOGIN.length : 0,
-        jwt_secret_login_first_char: process.env.JWT_SECRET_LOGIN ? process.env.JWT_SECRET_LOGIN[0] : "",
-        jwt_secret_login_last_char: process.env.JWT_SECRET_LOGIN ? process.env.JWT_SECRET_LOGIN[process.env.JWT_SECRET_LOGIN.length - 1] : "",
         timestamp: new Date().toISOString(),
     });
 });

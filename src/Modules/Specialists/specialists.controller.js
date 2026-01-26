@@ -4,6 +4,6 @@ import { getSpecialists } from "./Services/specialists.service.js";
 
 const specialistsRouter = Router();
 
-specialistsRouter.get("/", authenticationMiddleware, getSpecialists);
+specialistsRouter.get("/", authenticationMiddleware, errorHandlerMiddleware(getSpecialists));
 
 export default specialistsRouter;
