@@ -81,6 +81,8 @@ app.get("/", (req, res) => {
         message: "API is running",
         status: "OK",
         environment: process.env.NODE_ENV || "development",
+        vercel: process.env.VERCEL,
+        jwt_secret_login_status: process.env.JWT_SECRET_LOGIN ? "Loaded" : "Not Loaded",
         timestamp: new Date().toISOString(),
     });
 });
