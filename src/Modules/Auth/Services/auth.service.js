@@ -89,12 +89,10 @@ export const login = async (req, res) => {
             });
         }
 
-        // FIXED: Now uuidv4 is properly imported
         const token = jwt.sign(
             { id: user._id.toString() }, 
             process.env.JWT_SECRET_LOGIN, 
             {
-                expiresIn: "1h",
                 jwtid: uuidv4()
             }
         );
