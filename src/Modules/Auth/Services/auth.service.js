@@ -1,6 +1,7 @@
 import Stripe from "stripe";
 import bcrypt, { compareSync, hashSync } from "bcrypt";
 import jwt from "jsonwebtoken";
+import { v4 as uuidv4 } from "uuid";
 
 import UserModel from "../../../DB/models/user.model.js";
 import { generateOtpEmail } from "../../../Utils/email-template.js";
@@ -35,10 +36,13 @@ export const register = async (req, res) => {
         const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
         const customer = await stripe.customers.create({ email });
 
+        // FIXED: Hash password before storing
+        const hashedPassword = await bcrypt.hash(password, 10);
+
         await UserModel.create({
             fullname,
             email,
-            password,
+            password: hashedPassword, // FIXED: Use hashed password
             phone: "",
             date_of_birth: "",
             gender: "",
@@ -62,6 +66,7 @@ export const login = async (req, res) => {
     try {
         const { email, password } = req.body;
 
+        // IMPROVED: Better validation message
         if (!email || !password) {
             return res.status(400).json({
                 message: `${!email ? "Email" : ""} ${
@@ -84,10 +89,15 @@ export const login = async (req, res) => {
             });
         }
 
-        const token = jwt.sign({ id: user._id.toString() }, process.env.JWT_SECRET_LOGIN, {
-            expiresIn: "1h",
-            jwtid: uuidv4()
-        });
+        // FIXED: Now uuidv4 is properly imported
+        const token = jwt.sign(
+            { id: user._id.toString() }, 
+            process.env.JWT_SECRET_LOGIN, 
+            {
+                expiresIn: "1h",
+                jwtid: uuidv4()
+            }
+        );
 
         // Convert to JSON and remove password
         const userObj = user.toObject();
@@ -99,9 +109,12 @@ export const login = async (req, res) => {
             token,
         });
     } catch (error) {
+        // IMPROVED: More detailed error logging
         console.error("Login error:", error);
+        console.error("Error stack:", error.stack);
         return res.status(500).json({
             message: "Internal server error",
+            ...(process.env.NODE_ENV === 'development' && { error: error.message })
         });
     }
 };
@@ -109,6 +122,10 @@ export const login = async (req, res) => {
 export const sendOtp = async (req, res) => {
     try {
         const { email } = req.body;
+
+        if (!email) {
+            return res.status(400).json({ message: "Email is required" });
+        }
 
         const user = await UserModel.findOne({ email }).select("+password +otp_code +otp_expires_at");
         if (!user) {
@@ -142,9 +159,25 @@ export const verifyOtp = async (req, res) => {
     try {
         const { email, otp } = req.body;
 
+        if (!email || !otp) {
+            return res.status(400).json({ 
+                message: "Email and OTP are required" 
+            });
+        }
+
         const user = await UserModel.findOne({ email }).select("+password +otp_code +otp_expires_at");
         if (!user) {
             return res.status(404).json({ message: "User not found" });
+        }
+
+        // ADDED: Check if OTP exists
+        if (!user.otp_code) {
+            return res.status(400).json({ message: "No OTP found. Please request a new one." });
+        }
+
+        // ADDED: Check if OTP has expired
+        if (user.otp_expires_at && user.otp_expires_at < new Date()) {
+            return res.status(400).json({ message: "OTP has expired" });
         }
 
         const isOtpValid = compareSync(otp, user.otp_code);
@@ -165,6 +198,12 @@ export const resetPassword = async (req, res) => {
     try {
         const { email, otp, newPassword, confirmPassword } = req.body;
 
+        if (!email || !otp || !newPassword || !confirmPassword) {
+            return res.status(400).json({ 
+                message: "All fields are required" 
+            });
+        }
+
         const user = await UserModel.findOne({
             email,
             otp_expires_at: { $gt: new Date() },
@@ -183,7 +222,8 @@ export const resetPassword = async (req, res) => {
             return res.status(400).json({ message: "Passwords do not match" });
         }
 
-        user.password = newPassword;
+        // FIXED: Hash new password before saving
+        user.password = await bcrypt.hash(newPassword, 10);
         user.otp_code = null;
         user.otp_expires_at = null;
         await user.save();
@@ -199,10 +239,20 @@ export const resetPassword = async (req, res) => {
 
 export const logout = async (req, res) => {
     try {
-        const token = req.headers.authorization.split(" ")[1];
+        // ADDED: Better error handling for missing authorization header
+        const authHeader = req.headers.authorization;
+        
+        if (!authHeader) {
+            return res.status(401).json({ 
+                message: "No authorization token provided" 
+            });
+        }
+
+        const token = authHeader.split(" ")[1];
         if (token) {
             addTokenToBlacklist(token);
         }
+        
         return res
             .status(200)
             .json({ message: "User logged out successfully" });
