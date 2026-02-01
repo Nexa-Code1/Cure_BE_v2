@@ -114,7 +114,7 @@ export const login = async (req, res) => {
         console.error("Error stack:", error.stack);
         return res.status(500).json({
             message: "Internal server error",
-            ...(process.env.NODE_ENV === 'development' && { error: error.message })
+            error: error.message
         });
     }
 };
