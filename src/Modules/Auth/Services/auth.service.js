@@ -66,7 +66,6 @@ export const login = async (req, res) => {
     try {
         const { email, password } = req.body;
 
-        // IMPROVED: Better validation message
         if (!email || !password) {
             return res.status(400).json({
                 message: `${!email ? "Email" : ""} ${
