@@ -9,10 +9,6 @@ import specialistsRouter from "../Modules/Specialists/specialists.controller.js"
 import paymentRouter from "../Modules/Payment/payment.controller.js";
 
 const routerHandler = (app) => {
-    app.use("/", (req, res) => {
-        res.json({ message: "Welcome to Cure API" });
-    });
-
     app.use("/api/auth", authRouter);
     app.use("/api/user", userRouter);
     app.use("/api/doctor", doctorRouter);
@@ -21,6 +17,10 @@ const routerHandler = (app) => {
     app.use("/api/booking", bookingRouter);
     app.use("/api/specialists", specialistsRouter);
     app.use("/api/payment", paymentRouter);
+    
+    app.use("/", (req, res) => {
+        res.json({ message: "Welcome to Cure API" });
+    });
 
     app.all(/.*/, (req, res) => {
         res.status(404).json({ message: "Route not found" });

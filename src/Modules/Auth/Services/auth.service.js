@@ -103,18 +103,12 @@ export const login = async (req, res) => {
         const userObj = user.toObject();
         delete userObj.password;
 
-        console.log("Generated token:", token);
-        console.log("User object:", userObj);
-
         return res.status(200).json({
             message: "User logged in successfully",
             user: userObj,
             token,
         });
     } catch (error) {
-        // IMPROVED: More detailed error logging
-        console.error("Login error:", error);
-        console.error("Error stack:", error.stack);
         return res.status(500).json({
             message: "Internal server error",
             error: error.message
