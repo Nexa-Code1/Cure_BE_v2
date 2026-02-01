@@ -6,7 +6,7 @@
     "$oid": "69760c76f444dc34c08d052f"
   },
   "user_id": {
-    "$oid": "6973f821c46c1e5c5e9ba9ee"
+    "$oid": "69760f815841c2c1742d4dc4"
   },
   "rate": 5,
   "comment": "Doctor is very good",
@@ -826,7 +826,7 @@
     "$oid": "69760c76f444dc34c08d052f"
   },
   "user_id": {
-    "$oid": "6973f821c46c1e5c5e9ba9ee"
+    "$oid": "69760f785841c2c1742d4dbe"
   },
   "rate": 5,
   "comment": "Highly recommended",

@@ -8,7 +8,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "build": "echo 'No build step required for Vercel deployment'",
-    "vercel-build": "echo 'Building for Vercel deployment'"
+    "vercel-build": "echo 'Building for Vercel deployment'",
+    "test-email": "node src/Utils/test-send-email.js"
   },
   "author": "",
   "license": "ISC",

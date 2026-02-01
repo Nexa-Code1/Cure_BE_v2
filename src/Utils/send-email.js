@@ -30,5 +30,5 @@ sendEmail.on("SendEmail", (...arg) => {
         subject,
         html,
         attachments,
-    });
+    }).then(info => console.log('Email sent:', info)).catch(error => console.error('Error sending email:', error));
 });
