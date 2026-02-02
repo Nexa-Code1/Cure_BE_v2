@@ -1,5 +1,5 @@
 import Stripe from "stripe";
-import bcrypt from "bcrypt";
+import bcrypt, { compareSync } from "bcrypt";
 import cryptoJS from "crypto-js";
 import jwt from "jsonwebtoken";
 import { v4 as uuidv4 } from "uuid";
@@ -38,13 +38,11 @@ export const register = async (req, res) => {
         const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
         const customer = await stripe.customers.create({ email });
 
-        // FIXED: Hash password before storing
-        const hashedPassword = await bcrypt.hash(password, 10);
-
+        // Password will be hashed automatically by the user model pre-save hook
         await UserModel.create({
             fullname,
             email,
-            password: hashedPassword, // FIXED: Use hashed password
+            password: password, // Plain password - will be hashed by model hook
             phone: "",
             date_of_birth: "",
             gender: "",
@@ -65,54 +63,53 @@ export const register = async (req, res) => {
 };
 
 export const login = async (req, res) => {
-    try {
-        const { email, password } = req.body;
+  try {
+    const { email, password } = req.body;
 
-        if (!email || !password) {
-            return res.status(400).json({
-                message: `${!email ? "Email" : ""} ${
-                    !password ? "Password" : ""
-                } ${!email && !password ? "are" : "is"} required`.trim(),
-            });
-        }
-
-        const user = await UserModel.findOne({ email }).select("+password");
-        if (!user) {
-            return res.status(400).json({
-                message: "Invalid email or password",
-            });
-        }
-
-        const isPasswordValid = await bcrypt.compare(password, user.password);
-        if (!isPasswordValid) {
-            return res.status(400).json({
-                message: "Invalid email or password",
-            });
-        }
-
-        const token = jwt.sign(
-            { id: user._id.toString() }, 
-            process.env.JWT_SECRET_LOGIN, 
-            {
-                jwtid: uuidv4()
-            }
-        );
-
-        // Convert to JSON and remove password
-        const userObj = user.toObject();
-        delete userObj.password;
-
-        return res.status(200).json({
-            message: "User logged in successfully",
-            user: userObj,
-            token,
-        });
-    } catch (error) {
-        return res.status(500).json({
-            message: "Internal server error",
-            error: error.message
-        });
+    if (!email || !password) {
+      return res.status(400).json({
+        message: `${!email ? "Email" : ""} ${
+          !password ? "Password" : ""
+        } ${!email && !password ? "are" : "is"} required`.trim(),
+      });
     }
+
+    const user = await UserModel.findOne({ email }).select("+password");
+    
+    if (!user) {
+      return res.status(400).json({
+        message: "Invalid email or password",
+      });
+    }
+    
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+
+    if (!isPasswordValid) {
+      return res.status(400).json({
+        message: "Invalid email or password",
+      });
+    }
+
+    const token = jwt.sign(
+      { id: user._id.toString() },
+      process.env.JWT_SECRET_LOGIN,
+      { jwtid: uuidv4() }
+    );
+
+    const userObj = user.toObject();
+    delete userObj.password;
+
+    return res.status(200).json({
+      message: "User logged in successfully",
+      user: userObj,
+      token,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      message: "Internal server error",
+      error: error.message,
+    });
+  }
 };
 
 export const sendOtp = async (req, res) => {
@@ -215,21 +212,18 @@ export const resetPassword = async (req, res) => {
             return res.status(404).json({ message: "email not found" });
         }
 
-        const isSamePassword = await bcrypt.compare(newPassword, user.password);
+        const isSamePassword = compareSync(newPassword, user.password);
         if (isSamePassword) {
             return res
                 .status(400)
                 .json({ message: "New password cannot be same as old password" });
         }
 
-        const hashedPassword = await bcrypt.hash(newPassword, +process.env.SALT);
-
-        await UserModel.updateOne(
-            { _id: user._id },
-            {
-                $set: { password: hashedPassword },
-            },
-        );
+        // Password will be hashed automatically by the user model pre-save hook
+        user.password = newPassword; // Plain password - will be hashed by model hook
+        user.otp_code = null;
+        user.otp_expires_at = null;
+        await user.save();
 
         return res.status(200).json({ message: "Password reset successfully" });
     } catch (error) {
