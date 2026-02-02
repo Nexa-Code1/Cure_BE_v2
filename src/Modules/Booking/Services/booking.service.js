@@ -2,7 +2,7 @@ import s from "stripe";
 
 import BookingModel from "../../../DB/models/booking.model.js";
 import DoctorModel from "../../../DB/models/doctor.model.js";
-import { sendEmail } from "./../../../Utils/send-email.js";
+import sendEmail  from "./../../../Utils/send-email.js";
 import {
   cancelBookingEmail,
   bookingEmail,

@@ -8,8 +8,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "build": "echo 'No build step required for Vercel deployment'",
-    "vercel-build": "echo 'Building for Vercel deployment'",
-    "test-email": "node src/Utils/test-send-email.js"
+    "vercel-build": "echo 'Building for Vercel deployment'"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +17,7 @@
     "bcrypt": "^6.0.0",
     "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
     "dotenv": "^16.6.1",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",

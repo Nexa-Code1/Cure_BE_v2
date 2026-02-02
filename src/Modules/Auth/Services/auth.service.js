@@ -1,11 +1,13 @@
 import Stripe from "stripe";
-import bcrypt, { compareSync, hashSync } from "bcrypt";
+import bcrypt from "bcrypt";
+import cryptoJS from "crypto-js";
 import jwt from "jsonwebtoken";
 import { v4 as uuidv4 } from "uuid";
+import crypto from "crypto";
 
 import UserModel from "../../../DB/models/user.model.js";
 import { generateOtpEmail } from "../../../Utils/email-template.js";
-import { sendEmail } from "../../../Utils/send-email.js";
+import sendEmail  from "../../../Utils/send-email.js";
 import { addTokenToBlacklist } from "../../../Utils/token-blacklist.js";
 
 export const register = async (req, res) => {
@@ -126,18 +128,22 @@ export const sendOtp = async (req, res) => {
             return res.status(404).json({ message: "User not found" });
         }
 
-        const OTP = Math.floor(100000 + Math.random() * 900000).toString();
-        const hashOTP = hashSync(OTP, 10);
-        const otpExpiration = new Date(Date.now() + 10 * 60 * 1000);
+        // Generate cryptographically secure 6-digit OTP
+        const otp = crypto.randomInt(100000, 999999).toString();
 
-        user.otp_code = hashOTP;
-        user.otp_expires_at = otpExpiration;
+        const encryptedOTP = cryptoJS.AES.encrypt(
+            otp,
+            process.env.ENCRYPT_SECRET,
+        ).toString();
+
+        user.otp_code = encryptedOTP;
+        user.otp_expires_at = new Date(Date.now() + 10 * 60 * 1000);
         await user.save();
 
         sendEmail.emit("SendEmail", {
             to: email,
             subject: "Reset Password OTP",
-            html: generateOtpEmail(OTP),
+            html: generateOtpEmail(otp),
         });
 
         return res.status(200).json({
@@ -164,18 +170,22 @@ export const verifyOtp = async (req, res) => {
             return res.status(404).json({ message: "User not found" });
         }
 
-        // ADDED: Check if OTP exists
+        // Check if OTP exists
         if (!user.otp_code) {
             return res.status(400).json({ message: "No OTP found. Please request a new one." });
         }
 
-        // ADDED: Check if OTP has expired
+        // Check if OTP has expired
         if (user.otp_expires_at && user.otp_expires_at < new Date()) {
             return res.status(400).json({ message: "OTP has expired" });
         }
 
-        const isOtpValid = compareSync(otp, user.otp_code);
-        if (!isOtpValid) {
+        const decryptedOtp = cryptoJS.AES.decrypt(
+            user.otp_code,
+            process.env.ENCRYPT_SECRET
+        ).toString(cryptoJS.enc.Utf8);
+
+        if (otp !== decryptedOtp) {
             return res.status(400).json({ message: "Invalid OTP" });
         }
 
@@ -190,41 +200,38 @@ export const verifyOtp = async (req, res) => {
 
 export const resetPassword = async (req, res) => {
     try {
-        const { email, otp, newPassword, confirmPassword } = req.body;
+        const { email, newPassword, confirmNewPassword } = req.body;
 
-        if (!email || !otp || !newPassword || !confirmPassword) {
-            return res.status(400).json({ 
-                message: "All fields are required" 
-            });
+        if (!email || !newPassword || !confirmNewPassword) {
+            return res.status(400).json({ message: "All fields are required" });
         }
 
-        const user = await UserModel.findOne({
-            email,
-            otp_expires_at: { $gt: new Date() },
-        }).select("+password +otp_code +otp_expires_at");
-
-        if (!user) {
-            return res.status(404).json({ message: "Invalid or expired OTP" });
-        }
-
-        const isOtpValid = compareSync(otp, user.otp_code);
-        if (!isOtpValid) {
-            return res.status(400).json({ message: "Invalid OTP" });
-        }
-
-        if (newPassword !== confirmPassword) {
+        if (newPassword !== confirmNewPassword) {
             return res.status(400).json({ message: "Passwords do not match" });
         }
 
-        // FIXED: Hash new password before saving
-        user.password = await bcrypt.hash(newPassword, 10);
-        user.otp_code = null;
-        user.otp_expires_at = null;
-        await user.save();
+        const user = await UserModel.findOne({ email }).select("+password");
+        if (!user) {
+            return res.status(404).json({ message: "email not found" });
+        }
 
-        return res.status(200).json({
-            message: "Password reset successfully",
-        });
+        const isSamePassword = await bcrypt.compare(newPassword, user.password);
+        if (isSamePassword) {
+            return res
+                .status(400)
+                .json({ message: "New password cannot be same as old password" });
+        }
+
+        const hashedPassword = await bcrypt.hash(newPassword, +process.env.SALT);
+
+        await UserModel.updateOne(
+            { _id: user._id },
+            {
+                $set: { password: hashedPassword },
+            },
+        );
+
+        return res.status(200).json({ message: "Password reset successfully" });
     } catch (error) {
         console.error("Reset Password Error:", error);
         return res.status(500).json({ message: "Internal server error" });
@@ -233,7 +240,7 @@ export const resetPassword = async (req, res) => {
 
 export const logout = async (req, res) => {
     try {
-        // ADDED: Better error handling for missing authorization header
+        // Better error handling for missing authorization header
         const authHeader = req.headers.authorization;
         
         if (!authHeader) {

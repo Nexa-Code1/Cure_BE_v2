@@ -47,11 +47,12 @@ export const generateOtpEmail = (otp) => `
     <h2>OTP Verification</h2>
     <p>Your verification code is:</p>
     <p class="otp">${otp}</p>
-    <p>This code is valid for <strong>10 minutes</strong>. Please do not share it with anyone.</p>
+    <p>This code is valid for <strong>1 minutes</strong>. Please do not share it with anyone.</p>
   </div>
 </body>
 </html>
 `;
+
 export const bookingEmail = (user, date, time) => `
 <!DOCTYPE html>
 <html lang="en">

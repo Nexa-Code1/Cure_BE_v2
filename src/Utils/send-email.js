@@ -8,7 +8,7 @@ const SendEmailServices = async ({ to, subject, html, attachments = [] }) => {
             secure: true,
             auth: {
                 user: process.env.EMAIL,
-                pass: process.env.EMAIL_PASS,
+                pass: process.env.EMAIL_PASSWORD,
             },
         });
 
@@ -22,7 +22,7 @@ const SendEmailServices = async ({ to, subject, html, attachments = [] }) => {
         return info;
 };
 
-export const sendEmail = new EventEmitter();
+const sendEmail = new EventEmitter();
 sendEmail.on("SendEmail", (...arg) => {
     const { to, subject, html, attachments } = arg[0];
     SendEmailServices({
@@ -30,5 +30,7 @@ sendEmail.on("SendEmail", (...arg) => {
         subject,
         html,
         attachments,
-    }).then(info => console.log('Email sent:', info)).catch(error => console.error('Error sending email:', error));
+    })
 });
+
+export default sendEmail;
