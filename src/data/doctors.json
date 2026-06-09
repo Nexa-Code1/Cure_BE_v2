@@ -1,0 +1,3152 @@
+[
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3f5"
+    },
+    "name": "Omar Hassan",
+    "about": "Dental specialist focused on oral hygiene, restorative care, and comfortable patient visits.",
+    "specialty": "Dentist",
+    "available_slots": [
+      {
+        "day": "2026-06-10",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-06-14",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-06-18",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-06-22",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.969089",
+      "y": "32.550789"
+    },
+    "price": "600",
+    "experience": "7 years",
+    "email": "omar.hassan@healthcare.com",
+    "patients": "665",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3f6"
+    },
+    "name": "Sara El Masry",
+    "about": "Heart specialist focused on prevention, cardiac diagnostics, and long-term cardiovascular care.",
+    "specialty": "Cardiologist",
+    "available_slots": [
+      {
+        "day": "2026-06-12",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-06-16",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-06-20",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-06-24",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "09:00",
+    "end_time": "16:30",
+    "address": {
+      "x": "30.004746",
+      "y": "32.607789"
+    },
+    "price": "600",
+    "experience": "18 years",
+    "email": "sara.el.masry@healthcare.com",
+    "patients": "321",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/women/8.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3f7"
+    },
+    "name": "Youssef Adel",
+    "about": "ENT specialist treating ear, nose, and throat conditions including sinus and hearing concerns.",
+    "specialty": "ENT",
+    "available_slots": [
+      {
+        "day": "2026-06-14",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-06-18",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-06-22",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-06-26",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.979134",
+      "y": "32.591887"
+    },
+    "price": "400",
+    "experience": "4 years",
+    "email": "youssef.adel@healthcare.com",
+    "patients": "683",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/men/15.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3f8"
+    },
+    "name": "Mona Saeed",
+    "about": "Neurologist treating nervous system disorders including migraines, seizures, and neuropathy.",
+    "specialty": "Neurologist",
+    "available_slots": [
+      {
+        "day": "2026-06-16",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-06-20",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-06-24",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-06-28",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "29.966227",
+      "y": "32.562167"
+    },
+    "price": "700",
+    "experience": "14 years",
+    "email": "mona.saeed@healthcare.com",
+    "patients": "295",
+    "rate": "4.3",
+    "image": "https://randomuser.me/api/portraits/women/22.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3f9"
+    },
+    "name": "Karim Nabil",
+    "about": "General practitioner providing primary care, checkups, diagnosis, and chronic disease follow-up.",
+    "specialty": "General Practitioner",
+    "available_slots": [
+      {
+        "day": "2026-06-18",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-06-22",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-06-26",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-06-30",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.974090",
+      "y": "32.542963"
+    },
+    "price": "250",
+    "experience": "20 years",
+    "email": "karim.nabil@healthcare.com",
+    "patients": "421",
+    "rate": "3.7",
+    "image": "https://randomuser.me/api/portraits/men/29.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3fa"
+    },
+    "name": "Nadine Fouad",
+    "about": "Eye specialist focused on diagnosis, medical eye care, and vision preservation.",
+    "specialty": "Ophthalmologist",
+    "available_slots": [
+      {
+        "day": "2026-06-20",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-06-24",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-06-28",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-07-02",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "30.001618",
+      "y": "32.587106"
+    },
+    "price": "500",
+    "experience": "19 years",
+    "email": "nadine.fouad@healthcare.com",
+    "patients": "146",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/women/36.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3fb"
+    },
+    "name": "Ahmed Samir",
+    "about": "Lung specialist focused on breathing disorders, sleep-related issues, and respiratory care.",
+    "specialty": "Pulmonologist",
+    "available_slots": [
+      {
+        "day": "2026-06-22",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-06-26",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-06-30",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-07-04",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "29.957816",
+      "y": "32.628850"
+    },
+    "price": "450",
+    "experience": "10 years",
+    "email": "ahmed.samir@healthcare.com",
+    "patients": "362",
+    "rate": "4.3",
+    "image": "https://randomuser.me/api/portraits/men/43.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3fc"
+    },
+    "name": "Laila Mansour",
+    "about": "Bone and joint doctor focused on fractures, arthritis, rehabilitation, and mobility care.",
+    "specialty": "Orthopedic",
+    "available_slots": [
+      {
+        "day": "2026-06-24",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-06-28",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-07-02",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-07-06",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.988027",
+      "y": "32.552931"
+    },
+    "price": "500",
+    "experience": "13 years",
+    "email": "laila.mansour@healthcare.com",
+    "patients": "89",
+    "rate": "4.7",
+    "image": "https://randomuser.me/api/portraits/women/50.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3fd"
+    },
+    "name": "Tarek Fathy",
+    "about": "Gastroenterologist treating digestive disorders including reflux, IBS, and liver conditions.",
+    "specialty": "Gastroenterologist",
+    "available_slots": [
+      {
+        "day": "2026-06-26",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-06-30",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-07-04",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-07-08",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.968143",
+      "y": "32.616462"
+    },
+    "price": "600",
+    "experience": "11 years",
+    "email": "tarek.fathy@healthcare.com",
+    "patients": "526",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/men/57.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3fe"
+    },
+    "name": "Hana Yasser",
+    "about": "Cancer specialist focused on evidence-based therapy, monitoring, and patient-centered care.",
+    "specialty": "Oncologist",
+    "available_slots": [
+      {
+        "day": "2026-06-28",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-07-02",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-07-06",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-07-10",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "29.960536",
+      "y": "32.565664"
+    },
+    "price": "1100",
+    "experience": "21 years",
+    "email": "hana.yasser@healthcare.com",
+    "patients": "396",
+    "rate": "3.5",
+    "image": "https://randomuser.me/api/portraits/women/64.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa3ff"
+    },
+    "name": "Mostafa Galal",
+    "about": "Hormone specialist focused on diabetes care, thyroid balance, and endocrine conditions.",
+    "specialty": "Endocrinologist",
+    "available_slots": [
+      {
+        "day": "2026-06-30",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-07-04",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-07-08",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-07-12",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "29.957032",
+      "y": "32.613777"
+    },
+    "price": "700",
+    "experience": "5 years",
+    "email": "mostafa.galal@healthcare.com",
+    "patients": "294",
+    "rate": "3.7",
+    "image": "https://randomuser.me/api/portraits/men/71.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa400"
+    },
+    "name": "Dina Sherif",
+    "about": "Psychiatrist treating mental health conditions including anxiety, depression, and mood disorders.",
+    "specialty": "Psychiatrist",
+    "available_slots": [
+      {
+        "day": "2026-07-02",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-07-06",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-07-10",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-07-14",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.990537",
+      "y": "32.570869"
+    },
+    "price": "650",
+    "experience": "13 years",
+    "email": "dina.sherif@healthcare.com",
+    "patients": "667",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/women/78.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa401"
+    },
+    "name": "Hussein Kamal",
+    "about": "Dental specialist focused on oral hygiene, restorative care, and comfortable patient visits.",
+    "specialty": "Dentist",
+    "available_slots": [
+      {
+        "day": "2026-07-04",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-07-08",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-07-12",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-07-16",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "29.963526",
+      "y": "32.625381"
+    },
+    "price": "650",
+    "experience": "4 years",
+    "email": "hussein.kamal@healthcare.com",
+    "patients": "236",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/men/85.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa402"
+    },
+    "name": "Mariam Zaki",
+    "about": "Heart specialist focused on prevention, cardiac diagnostics, and long-term cardiovascular care.",
+    "specialty": "Cardiologist",
+    "available_slots": [
+      {
+        "day": "2026-07-06",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-07-10",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-07-14",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-07-18",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "30.007705",
+      "y": "32.542873"
+    },
+    "price": "600",
+    "experience": "14 years",
+    "email": "mariam.zaki@healthcare.com",
+    "patients": "382",
+    "rate": "4.3",
+    "image": "https://randomuser.me/api/portraits/women/92.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa403"
+    },
+    "name": "Sherif Amin",
+    "about": "ENT specialist treating ear, nose, and throat conditions including sinus and hearing concerns.",
+    "specialty": "ENT",
+    "available_slots": [
+      {
+        "day": "2026-07-08",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-07-12",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-07-16",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-07-20",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      }
+    ],
+    "start_time": "12:00",
+    "end_time": "20:00",
+    "address": {
+      "x": "30.007654",
+      "y": "32.581408"
+    },
+    "price": "250",
+    "experience": "24 years",
+    "email": "sherif.amin@healthcare.com",
+    "patients": "332",
+    "rate": "3.0",
+    "image": "https://randomuser.me/api/portraits/men/99.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa404"
+    },
+    "name": "Farida Hatem",
+    "about": "Neurologist treating nervous system disorders including migraines, seizures, and neuropathy.",
+    "specialty": "Neurologist",
+    "available_slots": [
+      {
+        "day": "2026-07-10",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-07-14",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-07-18",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-07-22",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "30.007301",
+      "y": "32.541475"
+    },
+    "price": "850",
+    "experience": "2 years",
+    "email": "farida.hatem@healthcare.com",
+    "patients": "308",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/women/7.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa405"
+    },
+    "name": "Mahmoud Ezz",
+    "about": "Family doctor focused on preventive care, everyday illnesses, and coordinated patient treatment.",
+    "specialty": "General Practitioner",
+    "available_slots": [
+      {
+        "day": "2026-07-12",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-07-16",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-07-20",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-07-24",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "30.012202",
+      "y": "32.587379"
+    },
+    "price": "350",
+    "experience": "24 years",
+    "email": "mahmoud.ezz@healthcare.com",
+    "patients": "586",
+    "rate": "5.0",
+    "image": "https://randomuser.me/api/portraits/men/14.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa406"
+    },
+    "name": "Rana Khaled",
+    "about": "Eye specialist focused on diagnosis, medical eye care, and vision preservation.",
+    "specialty": "Ophthalmologist",
+    "available_slots": [
+      {
+        "day": "2026-07-14",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-07-18",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-07-22",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-07-26",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "30.015164",
+      "y": "32.590197"
+    },
+    "price": "550",
+    "experience": "12 years",
+    "email": "rana.khaled@healthcare.com",
+    "patients": "675",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/women/21.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa407"
+    },
+    "name": "Amr Tawfik",
+    "about": "Pulmonologist treating respiratory conditions including asthma, COPD, and chronic cough.",
+    "specialty": "Pulmonologist",
+    "available_slots": [
+      {
+        "day": "2026-07-16",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-07-20",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-07-24",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-07-28",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "30.003496",
+      "y": "32.566481"
+    },
+    "price": "500",
+    "experience": "10 years",
+    "email": "amr.tawfik@healthcare.com",
+    "patients": "128",
+    "rate": "4.3",
+    "image": "https://randomuser.me/api/portraits/men/28.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa408"
+    },
+    "name": "Salma Nader",
+    "about": "Orthopedic specialist treating bone, joint, spine, and sports-related injuries.",
+    "specialty": "Orthopedic",
+    "available_slots": [
+      {
+        "day": "2026-07-18",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-07-22",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-07-26",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-07-30",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "09:00",
+    "end_time": "16:30",
+    "address": {
+      "x": "30.019231",
+      "y": "32.623148"
+    },
+    "price": "800",
+    "experience": "13 years",
+    "email": "salma.nader@healthcare.com",
+    "patients": "263",
+    "rate": "4.2",
+    "image": "https://randomuser.me/api/portraits/women/35.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa409"
+    },
+    "name": "Yara Ibrahim",
+    "about": "Digestive system specialist focused on stomach, colon, pancreas, and liver health.",
+    "specialty": "Gastroenterologist",
+    "available_slots": [
+      {
+        "day": "2026-07-20",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-07-24",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-07-28",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-08-01",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      }
+    ],
+    "start_time": "12:00",
+    "end_time": "20:00",
+    "address": {
+      "x": "29.997289",
+      "y": "32.619472"
+    },
+    "price": "750",
+    "experience": "3 years",
+    "email": "yara.ibrahim@healthcare.com",
+    "patients": "642",
+    "rate": "4.8",
+    "image": "https://randomuser.me/api/portraits/women/42.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa40a"
+    },
+    "name": "Hady Mokhtar",
+    "about": "Cancer specialist focused on evidence-based therapy, monitoring, and patient-centered care.",
+    "specialty": "Oncologist",
+    "available_slots": [
+      {
+        "day": "2026-07-22",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-07-26",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-07-30",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-03",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "29.991129",
+      "y": "32.550691"
+    },
+    "price": "900",
+    "experience": "5 years",
+    "email": "hady.mokhtar@healthcare.com",
+    "patients": "173",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/men/49.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa40b"
+    },
+    "name": "Noha Gamal",
+    "about": "Endocrinologist treating hormone disorders including diabetes, thyroid disease, and metabolism issues.",
+    "specialty": "Endocrinologist",
+    "available_slots": [
+      {
+        "day": "2026-07-24",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-07-28",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-08-01",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-08-05",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "30.011854",
+      "y": "32.578541"
+    },
+    "price": "750",
+    "experience": "25 years",
+    "email": "noha.gamal@healthcare.com",
+    "patients": "386",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/women/56.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa40c"
+    },
+    "name": "Walid Fares",
+    "about": "Mental health doctor focused on diagnosis, medication management, and long-term wellbeing.",
+    "specialty": "Psychiatrist",
+    "available_slots": [
+      {
+        "day": "2026-07-26",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-07-30",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-03",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-08-07",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "09:00",
+    "end_time": "16:30",
+    "address": {
+      "x": "29.971698",
+      "y": "32.548686"
+    },
+    "price": "750",
+    "experience": "5 years",
+    "email": "walid.fares@healthcare.com",
+    "patients": "240",
+    "rate": "4.4",
+    "image": "https://randomuser.me/api/portraits/men/63.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa40d"
+    },
+    "name": "Reem Sameh",
+    "about": "Dentist providing preventive care, fillings, whitening, and gum health treatments.",
+    "specialty": "Dentist",
+    "available_slots": [
+      {
+        "day": "2026-07-28",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-08-01",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-05",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-08-09",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "30.003023",
+      "y": "32.578753"
+    },
+    "price": "300",
+    "experience": "5 years",
+    "email": "reem.sameh@healthcare.com",
+    "patients": "539",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/women/70.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa40e"
+    },
+    "name": "Bassem Lotfy",
+    "about": "Heart specialist focused on prevention, cardiac diagnostics, and long-term cardiovascular care.",
+    "specialty": "Cardiologist",
+    "available_slots": [
+      {
+        "day": "2026-07-30",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-08-03",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-07",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-08-11",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "09:00",
+    "end_time": "16:30",
+    "address": {
+      "x": "30.003212",
+      "y": "32.548241"
+    },
+    "price": "500",
+    "experience": "17 years",
+    "email": "bassem.lotfy@healthcare.com",
+    "patients": "152",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/men/77.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa40f"
+    },
+    "name": "Aya Magdy",
+    "about": "Otolaryngologist focused on allergies, voice problems, tonsils, and chronic sinus issues.",
+    "specialty": "ENT",
+    "available_slots": [
+      {
+        "day": "2026-08-01",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-08-05",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-08-09",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-08-13",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      }
+    ],
+    "start_time": "12:00",
+    "end_time": "20:00",
+    "address": {
+      "x": "30.003848",
+      "y": "32.547367"
+    },
+    "price": "500",
+    "experience": "4 years",
+    "email": "aya.magdy@healthcare.com",
+    "patients": "164",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/women/84.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa410"
+    },
+    "name": "Hazem Raouf",
+    "about": "Brain and nerve specialist focused on headaches, epilepsy, dizziness, and movement disorders.",
+    "specialty": "Neurologist",
+    "available_slots": [
+      {
+        "day": "2026-08-03",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-08-07",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-08-11",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-08-15",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      }
+    ],
+    "start_time": "12:00",
+    "end_time": "20:00",
+    "address": {
+      "x": "30.015186",
+      "y": "32.584654"
+    },
+    "price": "800",
+    "experience": "5 years",
+    "email": "hazem.raouf@healthcare.com",
+    "patients": "120",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/men/91.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa411"
+    },
+    "name": "Mai Ashraf",
+    "about": "Family doctor focused on preventive care, everyday illnesses, and coordinated patient treatment.",
+    "specialty": "General Practitioner",
+    "available_slots": [
+      {
+        "day": "2026-08-05",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-08-09",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-08-13",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-08-17",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "30.009949",
+      "y": "32.574885"
+    },
+    "price": "300",
+    "experience": "17 years",
+    "email": "mai.ashraf@healthcare.com",
+    "patients": "210",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/women/98.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa412"
+    },
+    "name": "Ehab Salem",
+    "about": "Eye specialist focused on diagnosis, medical eye care, and vision preservation.",
+    "specialty": "Ophthalmologist",
+    "available_slots": [
+      {
+        "day": "2026-08-07",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-08-11",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-08-15",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-08-19",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      }
+    ],
+    "start_time": "12:00",
+    "end_time": "20:00",
+    "address": {
+      "x": "29.985476",
+      "y": "32.591036"
+    },
+    "price": "300",
+    "experience": "16 years",
+    "email": "ehab.salem@healthcare.com",
+    "patients": "541",
+    "rate": "3.5",
+    "image": "https://randomuser.me/api/portraits/men/6.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa413"
+    },
+    "name": "Nourhan Atef",
+    "about": "Pulmonologist treating respiratory conditions including asthma, COPD, and chronic cough.",
+    "specialty": "Pulmonologist",
+    "available_slots": [
+      {
+        "day": "2026-08-09",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-08-13",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-17",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-08-21",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "29.990089",
+      "y": "32.582926"
+    },
+    "price": "500",
+    "experience": "9 years",
+    "email": "nourhan.atef@healthcare.com",
+    "patients": "529",
+    "rate": "4.3",
+    "image": "https://randomuser.me/api/portraits/women/13.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa414"
+    },
+    "name": "Fady Nassar",
+    "about": "Orthopedic specialist treating bone, joint, spine, and sports-related injuries.",
+    "specialty": "Orthopedic",
+    "available_slots": [
+      {
+        "day": "2026-08-11",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-08-15",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-08-19",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-08-23",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "29.986502",
+      "y": "32.559845"
+    },
+    "price": "650",
+    "experience": "6 years",
+    "email": "fady.nassar@healthcare.com",
+    "patients": "255",
+    "rate": "4.2",
+    "image": "https://randomuser.me/api/portraits/men/20.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa415"
+    },
+    "name": "Asmaa Farouk",
+    "about": "Gastroenterologist treating digestive disorders including reflux, IBS, and liver conditions.",
+    "specialty": "Gastroenterologist",
+    "available_slots": [
+      {
+        "day": "2026-08-13",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-08-17",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-21",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-08-25",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "29.996629",
+      "y": "32.574721"
+    },
+    "price": "450",
+    "experience": "19 years",
+    "email": "asmaa.farouk@healthcare.com",
+    "patients": "549",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/women/27.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa416"
+    },
+    "name": "Khaled Sobhy",
+    "about": "Oncologist providing cancer diagnosis, treatment planning, and supportive follow-up care.",
+    "specialty": "Oncologist",
+    "available_slots": [
+      {
+        "day": "2026-08-15",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-08-19",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-23",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-08-27",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "09:00",
+    "end_time": "16:30",
+    "address": {
+      "x": "29.951847",
+      "y": "32.565695"
+    },
+    "price": "850",
+    "experience": "4 years",
+    "email": "khaled.sobhy@healthcare.com",
+    "patients": "336",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/men/34.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa417"
+    },
+    "name": "Jana Maher",
+    "about": "Endocrinologist treating hormone disorders including diabetes, thyroid disease, and metabolism issues.",
+    "specialty": "Endocrinologist",
+    "available_slots": [
+      {
+        "day": "2026-08-17",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-08-21",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-08-25",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-08-29",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "29.972442",
+      "y": "32.627335"
+    },
+    "price": "650",
+    "experience": "3 years",
+    "email": "jana.maher@healthcare.com",
+    "patients": "545",
+    "rate": "4.0",
+    "image": "https://randomuser.me/api/portraits/women/41.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa418"
+    },
+    "name": "Seif Hamdy",
+    "about": "Mental health doctor focused on diagnosis, medication management, and long-term wellbeing.",
+    "specialty": "Psychiatrist",
+    "available_slots": [
+      {
+        "day": "2026-08-19",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-08-23",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-27",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-08-31",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "09:00",
+    "end_time": "16:30",
+    "address": {
+      "x": "30.008996",
+      "y": "32.608756"
+    },
+    "price": "350",
+    "experience": "21 years",
+    "email": "seif.hamdy@healthcare.com",
+    "patients": "362",
+    "rate": "4.7",
+    "image": "https://randomuser.me/api/portraits/men/48.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa419"
+    },
+    "name": "Menna Tamer",
+    "about": "Dentist providing preventive care, fillings, whitening, and gum health treatments.",
+    "specialty": "Dentist",
+    "available_slots": [
+      {
+        "day": "2026-08-21",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-08-25",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-08-29",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-09-02",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.961201",
+      "y": "32.617320"
+    },
+    "price": "250",
+    "experience": "20 years",
+    "email": "menna.tamer@healthcare.com",
+    "patients": "695",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/women/55.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa41a"
+    },
+    "name": "Ramy Essam",
+    "about": "Cardiologist treating heart conditions including hypertension, arrhythmia, and coronary disease.",
+    "specialty": "Cardiologist",
+    "available_slots": [
+      {
+        "day": "2026-08-23",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-08-27",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-08-31",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-09-04",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "29.997139",
+      "y": "32.593886"
+    },
+    "price": "650",
+    "experience": "22 years",
+    "email": "ramy.essam@healthcare.com",
+    "patients": "238",
+    "rate": "5.0",
+    "image": "https://randomuser.me/api/portraits/men/62.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa41b"
+    },
+    "name": "Heba Adel",
+    "about": "Otolaryngologist focused on allergies, voice problems, tonsils, and chronic sinus issues.",
+    "specialty": "ENT",
+    "available_slots": [
+      {
+        "day": "2026-08-25",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-08-29",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-09-02",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-09-06",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "29.952516",
+      "y": "32.540639"
+    },
+    "price": "500",
+    "experience": "23 years",
+    "email": "heba.adel@healthcare.com",
+    "patients": "177",
+    "rate": "3.8",
+    "image": "https://randomuser.me/api/portraits/women/69.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa41c"
+    },
+    "name": "Ali Reda",
+    "about": "Neurologist treating nervous system disorders including migraines, seizures, and neuropathy.",
+    "specialty": "Neurologist",
+    "available_slots": [
+      {
+        "day": "2026-08-27",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-08-31",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-09-04",
+        "slots": [
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30"
+        ]
+      },
+      {
+        "day": "2026-09-08",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      }
+    ],
+    "start_time": "10:00",
+    "end_time": "18:00",
+    "address": {
+      "x": "30.011192",
+      "y": "32.552690"
+    },
+    "price": "700",
+    "experience": "10 years",
+    "email": "ali.reda@healthcare.com",
+    "patients": "91",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/men/76.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa41d"
+    },
+    "name": "Dalia Nabil",
+    "about": "Family doctor focused on preventive care, everyday illnesses, and coordinated patient treatment.",
+    "specialty": "General Practitioner",
+    "available_slots": [
+      {
+        "day": "2026-08-29",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-09-02",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-09-06",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-09-10",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "30.005111",
+      "y": "32.591831"
+    },
+    "price": "400",
+    "experience": "17 years",
+    "email": "dalia.nabil@healthcare.com",
+    "patients": "226",
+    "rate": "4.3",
+    "image": "https://randomuser.me/api/portraits/women/83.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa41e"
+    },
+    "name": "Maged Samy",
+    "about": "Ophthalmologist treating eye conditions including vision problems, glaucoma, and cataracts.",
+    "specialty": "Ophthalmologist",
+    "available_slots": [
+      {
+        "day": "2026-08-31",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-09-04",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-09-08",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-09-12",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      }
+    ],
+    "start_time": "12:00",
+    "end_time": "20:00",
+    "address": {
+      "x": "29.977679",
+      "y": "32.588080"
+    },
+    "price": "450",
+    "experience": "13 years",
+    "email": "maged.samy@healthcare.com",
+    "patients": "87",
+    "rate": "4.8",
+    "image": "https://randomuser.me/api/portraits/men/90.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa41f"
+    },
+    "name": "Rania Mourad",
+    "about": "Pulmonologist treating respiratory conditions including asthma, COPD, and chronic cough.",
+    "specialty": "Pulmonologist",
+    "available_slots": [
+      {
+        "day": "2026-09-02",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-09-06",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-09-10",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-09-14",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      }
+    ],
+    "start_time": "12:00",
+    "end_time": "20:00",
+    "address": {
+      "x": "30.019762",
+      "y": "32.540408"
+    },
+    "price": "350",
+    "experience": "6 years",
+    "email": "rania.mourad@healthcare.com",
+    "patients": "326",
+    "rate": "4.2",
+    "image": "https://randomuser.me/api/portraits/women/97.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa420"
+    },
+    "name": "Yassin Fouad",
+    "about": "Orthopedic specialist treating bone, joint, spine, and sports-related injuries.",
+    "specialty": "Orthopedic",
+    "available_slots": [
+      {
+        "day": "2026-09-04",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-09-08",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      },
+      {
+        "day": "2026-09-12",
+        "slots": [
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30",
+          "16:30"
+        ]
+      },
+      {
+        "day": "2026-09-16",
+        "slots": [
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00"
+        ]
+      }
+    ],
+    "start_time": "12:00",
+    "end_time": "20:00",
+    "address": {
+      "x": "30.001442",
+      "y": "32.618653"
+    },
+    "price": "850",
+    "experience": "2 years",
+    "email": "yassin.fouad@healthcare.com",
+    "patients": "125",
+    "rate": "4.4",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa421"
+    },
+    "name": "Malak Hesham",
+    "about": "Digestive system specialist focused on stomach, colon, pancreas, and liver health.",
+    "specialty": "Gastroenterologist",
+    "available_slots": [
+      {
+        "day": "2026-09-06",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-09-10",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-09-14",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-09-18",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.962333",
+      "y": "32.558605"
+    },
+    "price": "550",
+    "experience": "11 years",
+    "email": "malak.hesham@healthcare.com",
+    "patients": "163",
+    "rate": "5.0",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa422"
+    },
+    "name": "Hisham Gabr",
+    "about": "Cancer specialist focused on evidence-based therapy, monitoring, and patient-centered care.",
+    "specialty": "Oncologist",
+    "available_slots": [
+      {
+        "day": "2026-09-08",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-09-12",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-09-16",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-09-20",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "09:00",
+    "end_time": "16:30",
+    "address": {
+      "x": "29.951373",
+      "y": "32.564640"
+    },
+    "price": "1050",
+    "experience": "8 years",
+    "email": "hisham.gabr@healthcare.com",
+    "patients": "495",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/men/19.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa423"
+    },
+    "name": "Samar Wagdy",
+    "about": "Endocrinologist treating hormone disorders including diabetes, thyroid disease, and metabolism issues.",
+    "specialty": "Endocrinologist",
+    "available_slots": [
+      {
+        "day": "2026-09-10",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-09-14",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-09-18",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-09-22",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      }
+    ],
+    "start_time": "09:00",
+    "end_time": "16:30",
+    "address": {
+      "x": "29.981097",
+      "y": "32.612010"
+    },
+    "price": "450",
+    "experience": "2 years",
+    "email": "samar.wagdy@healthcare.com",
+    "patients": "270",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/women/26.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa424"
+    },
+    "name": "Adham Wael",
+    "about": "Psychiatrist treating mental health conditions including anxiety, depression, and mood disorders.",
+    "specialty": "Psychiatrist",
+    "available_slots": [
+      {
+        "day": "2026-09-12",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-09-16",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      },
+      {
+        "day": "2026-09-20",
+        "slots": [
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00"
+        ]
+      },
+      {
+        "day": "2026-09-24",
+        "slots": [
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30",
+          "13:30"
+        ]
+      }
+    ],
+    "start_time": "09:30",
+    "end_time": "17:00",
+    "address": {
+      "x": "29.951577",
+      "y": "32.589228"
+    },
+    "price": "550",
+    "experience": "19 years",
+    "email": "adham.wael@healthcare.com",
+    "patients": "547",
+    "rate": "4.6",
+    "image": "https://randomuser.me/api/portraits/men/33.jpg",
+    "gender": "male"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa425"
+    },
+    "name": "Celine George",
+    "about": "Dentist providing preventive care, fillings, whitening, and gum health treatments.",
+    "specialty": "Dentist",
+    "available_slots": [
+      {
+        "day": "2026-09-14",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-09-18",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      },
+      {
+        "day": "2026-09-22",
+        "slots": [
+          "08:30",
+          "09:30",
+          "10:30",
+          "11:30",
+          "12:30"
+        ]
+      },
+      {
+        "day": "2026-09-26",
+        "slots": [
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00"
+        ]
+      }
+    ],
+    "start_time": "08:30",
+    "end_time": "15:00",
+    "address": {
+      "x": "30.014862",
+      "y": "32.578131"
+    },
+    "price": "350",
+    "experience": "6 years",
+    "email": "celine.george@healthcare.com",
+    "patients": "325",
+    "rate": "4.5",
+    "image": "https://randomuser.me/api/portraits/women/40.jpg",
+    "gender": "female"
+  },
+  {
+    "_id": {
+      "$oid": "6a286205a17b546eb5caa426"
+    },
+    "name": "Ibrahim Ziad",
+    "about": "Heart specialist focused on prevention, cardiac diagnostics, and long-term cardiovascular care.",
+    "specialty": "Cardiologist",
+    "available_slots": [
+      {
+        "day": "2026-09-16",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-09-20",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      },
+      {
+        "day": "2026-09-24",
+        "slots": [
+          "11:30",
+          "12:30",
+          "13:30",
+          "14:30",
+          "15:30"
+        ]
+      },
+      {
+        "day": "2026-09-28",
+        "slots": [
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00"
+        ]
+      }
+    ],
+    "start_time": "11:00",
+    "end_time": "19:00",
+    "address": {
+      "x": "29.999016",
+      "y": "32.619723"
+    },
+    "price": "700",
+    "experience": "2 years",
+    "email": "ibrahim.ziad@healthcare.com",
+    "patients": "134",
+    "rate": "4.3",
+    "image": "https://randomuser.me/api/portraits/men/47.jpg",
+    "gender": "male"
+  }
+]
